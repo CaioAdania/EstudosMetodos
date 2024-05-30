@@ -12,3 +12,4 @@ C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\
 C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.pdb
 C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.genruntimeconfig.cache
 C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\ref\EstudosMetodos.dll
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.sourcelink.json

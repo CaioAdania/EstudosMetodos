@@ -7,44 +7,34 @@ namespace EstudosMetodos
     {
         static void Main(string[] args)
         {
-            Teste t1, t2, teste;
-            t1 = new Teste();
-            t2 = new Teste();
+            Produto p = new Produto();
+            
+            Console.WriteLine("Entre os dados do produto:");
+            Console.Write("Nome: ");
+            p.Nome = Console.ReadLine();
 
-            Console.Write("Qual seu time de coração: ");
-            t1.Time = Console.ReadLine();
+            Console.Write("Preço: ");
+            p.Preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.Write("Quantos Gols tem seu time: ");
-            t1.GolsFeitos = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Quantidade no estoque: ");
+            p.Quantidade = int.Parse(Console.ReadLine());
 
-            Console.Write("Quantos Gols seu time sofreu: ");
-            t1.GolsSofridos = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Dados do Produto: " + p);
 
-            Console.WriteLine();
-            Console.WriteLine("---------------");
-            Console.WriteLine();
-
-            Console.Write("Qual o Rival do seu time: ");
-            t2.Time = Console.ReadLine();
-
-            Console.Write("Quantos Gols tem o rival: ");
-            t2.GolsFeitos = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-            Console.Write("Quantos Gols sofreu o rival: ");
-            t2.GolsSofridos = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Digite o número de produtos a ser adicionado ao estoque: ");
+            int qtdAdicionar = int.Parse(Console.ReadLine());
+            p.AdicionarProdutos(qtdAdicionar);
 
             Console.WriteLine();
-            Console.WriteLine("---------------");
-            Console.WriteLine();
+            Console.WriteLine("Dados atualizados: " + p);
 
-            double mediaT1 = t1.SaldoDeGols();
-            double mediaT2 = t2.SaldoDeGols();
+            Console.WriteLine();
+            Console.Write("Digite o número de produtos a ser removido do estoque: ");
+            int qtdRetirar = int.Parse(Console.ReadLine());
+            p.RetirarProdutos(qtdRetirar);
 
-            Console.WriteLine("O Saldo de Gols do " + t1.Time + " foi de " + t1.SaldoDeGols());
             Console.WriteLine();
-            Console.WriteLine("O Saldo de Gols do " + t2.Time + " foi de " + t2.SaldoDeGols());
-            Console.WriteLine();
-            Console.WriteLine("Palmeiras não tem mundial");   
+            Console.WriteLine("Dados atualizados: " + p);
         }
     }
 }
