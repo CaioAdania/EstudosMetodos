@@ -1,0 +1,14 @@
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\bin\Debug\net8.0\EstudosMetodos.exe
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\bin\Debug\net8.0\EstudosMetodos.deps.json
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\bin\Debug\net8.0\EstudosMetodos.runtimeconfig.json
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\bin\Debug\net8.0\EstudosMetodos.dll
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\bin\Debug\net8.0\EstudosMetodos.pdb
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.AssemblyInfoInputs.cache
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.AssemblyInfo.cs
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.csproj.CoreCompileInputs.cache
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.dll
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\refint\EstudosMetodos.dll
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.pdb
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\EstudosMetodos.genruntimeconfig.cache
+C:\Users\caioa\Documents\Caio\VsEstudos\EstudosMetodos\EstudosMetodos\obj\Debug\net8.0\ref\EstudosMetodos.dll
