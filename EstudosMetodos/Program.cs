@@ -7,14 +7,27 @@ namespace EstudosMetodos
     {
         static void Main(string[] args)
         {
-            Retangulo r = new Retangulo();
-            
-            Console.WriteLine("Entre com a Largura e a Altura do Retângulo: ");
-            r.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            r.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Funcionario f = new Funcionario();
+
+            Console.Write("Nome: ");
+            f.Nome = Console.ReadLine();
+
+            Console.Write("Salário Bruto: ");
+            f.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Imposto: ");
+            f.Imposto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.WriteLine();
-            Console.WriteLine(r);
+            Console.WriteLine("Funcionário: " + f);
+
+            Console.WriteLine();
+            Console.Write("Digite a porcentagem para aumentar o Salário: ");
+            double aumento = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            f.AumentarSalario(aumento);
+
+            Console.WriteLine();
+            Console.WriteLine("Dados Atualizados: " + f);
         }
     }
 }
